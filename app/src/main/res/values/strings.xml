@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hand Note</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_my_activity2">MyActivity2</string>
+    <string name="action_discard">Delete</string>
+    <string name="action_open">Load Previous</string>
+    <string name="action_Erase">Erase</string>
+    <string name="action_Pencil">Pencil</string>
+    <string name="Label_Big">Large</string>
+    <string name="Clear_fill">Clear</string>
+    <string name="action_save">Save</string>
+    <string name="empty_error">Empty Canvas!!Draw before saving</string>
+    <string name="del_success">Successfully Deleted!!</string>
+    <string name="file_load_error">Error While Loading File!!</string>
+    <string name="action_error">Action can not be completed!! Please try Again</string>
+    <string name="del_fail">Failed to delete properly</string>
+    <string name="save_success">Successfully saved to Gallery!!</string>
+    <string name="Undo">Undo</string>
+    <string name="Redo">Redo</string>
+    <string name="Label_Fill">Fill</string>
+    <string name="Label_Medium">Medium</string>
+    <string name="Label_Small">Small</string>
+    <string name="title_confirm">Confirmation</string>
+    <string name="Del_conf_message">Do you want to delete?</string>
+    <string name="erase_conf_message">Do you want to erase?</string>
+    <string name="Button_Positive">Yes</string>
+    <string name="Button_Negative">No</string>
+
+
+</resources>
+

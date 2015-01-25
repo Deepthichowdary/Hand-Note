@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="skyblue">#B4FFFF</color>
+    <color name="light_skyblue">#C3FFFF</color>
+    <color name="light_blue">#33CCFF</color>
+    <color name="color_purple">#AA00FF</color>
+    <color name="color_pink">#FF1CAE</color>
+    <color name="color_brown">#802A2A</color>
+    <color name="color_orange">#FF7D40</color>
+</resources>

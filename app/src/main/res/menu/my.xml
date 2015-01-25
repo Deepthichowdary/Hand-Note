@@ -1,0 +1,154 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:HandNote="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/action_edit"
+        android:icon="@drawable/edit_64"
+        android:title="@string/action_Pencil"
+        HandNote:showAsAction="always"
+        android:onClick="setPencilFlag">
+        <menu>
+            <item
+                android:id="@+id/smallPencil"
+                android:title="@string/Label_Small"
+                android:icon="@drawable/edit_32"
+                HandNote:showAsAction="collapseActionView"
+                android:onClick="setPencilFlag"/>
+            <item
+                android:id="@+id/mediumPencil"
+                android:title="@string/Label_Medium"
+                android:icon="@drawable/edit_48"
+                android:onClick="setPencilFlag"/>
+            <item
+                android:id="@+id/bigPencil"
+                android:title="@string/Label_Big"
+                android:icon="@drawable/edit_96"
+                android:onClick="setPencilFlag"/>
+
+
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/fill"
+        android:title="@string/Label_Fill"
+        android:icon="@drawable/fill_icon"
+        HandNote:showAsAction="always"
+        android:onClick="setPencilFlag"/>
+    <item android:id="@+id/action_color"
+        android:icon="@drawable/painticon"
+        android:title="@string/action_Pencil"
+        HandNote:showAsAction="always"
+        android:onClick="setPaintColor">
+        <menu>
+            <item
+                android:id="@+id/red"
+                android:title="Red"
+                android:icon="@drawable/red_color"
+                android:onClick="setPaintColor"/>
+            <item
+                android:id="@+id/black"
+                android:title="Black"
+                android:icon="@drawable/black"
+                android:onClick="setPaintColor"/>
+            <item
+                android:id="@+id/green"
+                android:title="Green"
+                android:icon="@drawable/green_color"
+                android:onClick="setPaintColor"/>
+            <item
+                android:id="@+id/Megenta"
+                android:title="Magenta"
+                android:icon="@drawable/pink_color"
+                android:onClick="setPaintColor"/>
+            <item
+                android:id="@+id/Blue"
+                android:title="Blue"
+                android:icon="@drawable/blue"
+                android:onClick="setPaintColor"/>
+            <item
+                android:id="@+id/White"
+                android:title="White"
+                android:icon="@drawable/white"
+                android:onClick="setPaintColor"/>
+            <item
+                android:id="@+id/Pink"
+                android:title="Pink"
+                android:icon="@drawable/pink"
+                android:onClick="setPaintColor"/>
+            <item
+                android:id="@+id/Orange"
+                android:title="Orange"
+                android:icon="@drawable/orange"
+                android:onClick="setPaintColor"/>
+            <item
+                android:id="@+id/purple"
+                android:title="Purple"
+                android:icon="@drawable/purple"
+                android:onClick="setPaintColor"/>
+            <item
+                android:id="@+id/Yellow"
+                android:title="Yellow"
+                android:icon="@drawable/yellow"
+                android:onClick="setPaintColor"/>
+            <item
+                android:id="@+id/Brown"
+                android:title="Brown"
+                android:icon="@drawable/brown"
+                android:onClick="setPaintColor"/>
+
+
+        </menu>
+    </item>
+    <item android:id="@+id/action_erase"
+        android:icon="@drawable/eraser_64"
+        android:title="@string/action_Erase"
+        HandNote:showAsAction="always"
+        android:onClick="setEraseFlag">
+        <menu>
+            <item
+                android:id="@+id/action_erase_small"
+                android:title="@string/Label_Small"
+                android:icon="@drawable/eraser_32"
+                android:onClick="setEraseFlag"/>
+            <item
+                android:id="@+id/action_erase_medium"
+                android:title="@string/Label_Medium"
+                android:icon="@drawable/eraser_48"
+                android:onClick="setEraseFlag"/>
+            <item
+                android:id="@+id/action_erase_big"
+                android:title="@string/Label_Big"
+                android:icon="@drawable/eraser_96"
+                android:onClick="setEraseFlag"/>
+            <item
+                android:id="@+id/action_erase_fill"
+                android:title="@string/Clear_fill"
+                android:icon="@drawable/clear"
+                HandNote:showAsAction="always"
+                android:onClick="setEraseFlag"/>
+    </menu>
+    </item>
+    <item
+        android:id="@+id/action_save"
+        android:title="@string/Clear_fill"
+        android:icon="@drawable/save"
+        HandNote:showAsAction="always"
+        android:onClick="saveToGallery"/>
+
+    <item
+        android:id="@+id/menu_item_share"
+        HandNote:showAsAction="always"
+        android:icon="@drawable/share_icon"
+        android:title="Share"
+        android:actionProviderClass=
+            "android.widget.ShareActionProvider"
+        android:onClick="setShareIntent"/>
+
+    <item android:id="@+id/action_discard"
+        android:icon="@drawable/trash_icon"
+        android:title="@string/action_discard"
+        HandNote:showAsAction="ifRoom"
+        android:onClick="deleteDrawing" />
+
+
+
+</menu>
